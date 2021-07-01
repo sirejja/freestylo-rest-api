@@ -1,0 +1,57 @@
+POST http://127.0.0.1:5000/check_structure
+Content-Type: application/json
+
+{
+  "link": "https://freestylo.ru/",
+  "structure": {
+    "html": 1,
+    "head": 1,
+    "body": 1,
+    "p": 10,
+    "img": 2}
+}
+
+
+
+###
+GET http://127.0.0.1:5000/structure?link=https://github.com/sirejja&tags=html,img
+Accept: application/json
+
+
+###
+
+
+GET http://127.0.0.1:5000/structure?link=https://github.com/sirejja
+Accept: application/json
+
+
+
+###
+
+GET http://127.0.0.1:5000/structure
+Accept: application/json
+
+
+
+###
+
+
+
+
+
+
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{"phone": "89219524237",
+  "code": "LBXZIR"}
+
+
+
+###
+GET http://127.0.0.1:5000/login?phone=89219524237
+Accept: application/json
+
+
+
+###
