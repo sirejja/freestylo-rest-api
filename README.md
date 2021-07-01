@@ -1,5 +1,5 @@
-# RESTful_API_Flask**
-# freestylo test task.
+# RESTful_API_Flask
+# freestylo test task
 
 
 Функции названы однозначно, поэтому комментарии практически отсутствуют.  
