@@ -80,6 +80,6 @@ def find_difference(url, structure):
             difference[key] = link_structure[key]
 
     if bool(difference):
-        return {"is_correct": "False", "difference": difference}
+        return {"is_correct": False, "difference": difference}
     else:
-        return {"is_correct": "True"}
+        return {"is_correct": True}
